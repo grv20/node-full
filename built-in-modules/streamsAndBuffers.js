@@ -1,0 +1,12 @@
+const buffer = new Buffer.from("Vishwas", "utf-8");
+console.log(buffer.toString());
+console.log(buffer.toJSON());
+console.log(buffer);
+buffer.write("Code");
+console.log(buffer.toString());
+console.log(buffer.toJSON());
+console.log(buffer);
+buffer.write("Codevolution");
+console.log(buffer.toString());
+console.log(buffer.toJSON());
+console.log(buffer);
